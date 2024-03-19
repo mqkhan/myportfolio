@@ -31,7 +31,7 @@ const ProjectsSection = () => {
       description:
         "Created a weather app using API in JavaScript, HTML and CSS",
       tech: "JavaScript, HTML and CSS",
-      link: "https://github.com/mqkhan/weatherapp.git",
+      link: "https://mqkhan.github.io/weatherapp/",
       link1: "https://github.com/mqkhan/weatherapp.git",
     },
     {
