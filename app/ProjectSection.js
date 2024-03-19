@@ -3,8 +3,10 @@ const ProjectsSection = () => {
     {
       title: "React/Nextjs News Website",
       description: "Created a Website using React/NextJs",
+
       tech: "React Nextjs, Tailwind, CSR",
       link: "https://github.com/mqkhan/reactNewsWebsiteCSR.git",
+      link1: "https://github.com/mqkhan/reactNewsWebsiteCSR.git",
     },
     {
       title: "React Redux ToDoList",
@@ -12,7 +14,8 @@ const ProjectsSection = () => {
         "Created a TodoList using Redux and created" +
         "global State using store and Slice",
       tech: "React",
-      link: "https://github.com/mqkhan/redux-todolist.git",
+      link: "https://todolist-five-lyart-97.vercel.app/",
+      link1: "https://github.com/mqkhan/redux-todolist.git",
     },
     {
       title: "React Radio Player",
@@ -20,7 +23,8 @@ const ProjectsSection = () => {
         "Created a Radio Player using React" +
         "Also built a search function which search radio channels",
       tech: "React",
-      link: "https://github.com/mqkhan/radio-player-react.git",
+      link: "https://radio-player-chi.vercel.app/",
+      link1: "https://github.com/mqkhan/radio-player-react.git",
     },
     {
       title: "Vanilla JavaScript WeatherAPP",
@@ -28,6 +32,7 @@ const ProjectsSection = () => {
         "Created a weather app using API in JavaScript, HTML and CSS",
       tech: "JavaScript, HTML and CSS",
       link: "https://github.com/mqkhan/weatherapp.git",
+      link1: "https://github.com/mqkhan/weatherapp.git",
     },
     {
       title: "React Redux Portfolio",
@@ -36,6 +41,7 @@ const ProjectsSection = () => {
         " between dark and light mode.",
       tech: "Redux, React",
       link: "https://github.com/mqkhan/react-redux-portfolio.git",
+      link1: "https://github.com/mqkhan/react-redux-portfolio.git",
     },
   ];
 
@@ -55,14 +61,24 @@ const ProjectsSection = () => {
             <p className="text-gray-500 dark:text-gray-300 mt-2">
               Tech Used: {project.tech}
             </p>
-            <a
-              href={project.link}
-              className="text-blue-500 dark:text-blue-400 mt-2 block"
-              target="_blank"
-              rel=""
-            >
-              {"View Project"}
-            </a>
+            <div className="flex justify-between">
+              <a
+                href={project.link}
+                className="text-blue-500 dark:text-blue-400 mt-2 block"
+                target="_blank"
+                rel=""
+              >
+                {"View Project"}
+              </a>
+              <a
+                href={project.link1}
+                className="text-blue-500 dark:text-blue-400 mt-2 block"
+                target="_blank"
+                rel=""
+              >
+                {"View Code"}
+              </a>
+            </div>
           </div>
         ))}
       </div>
