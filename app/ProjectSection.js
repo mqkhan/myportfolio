@@ -40,7 +40,7 @@ const ProjectsSection = () => {
         "Created a portfolio site using Redux which switches" +
         " between dark and light mode.",
       tech: "Redux, React",
-      link: "https://github.com/mqkhan/react-redux-portfolio.git",
+      link: "https://myportfolio-indol-mu.vercel.app/",
       link1: "https://github.com/mqkhan/react-redux-portfolio.git",
     },
   ];
