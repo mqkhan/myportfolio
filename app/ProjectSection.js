@@ -1,11 +1,9 @@
 const ProjectsSection = () => {
-  //   const { state } = useTheme();
-
   const projects = [
     {
       title: "React/Nextjs News Website",
       description: "Created a Website using React/NextJs",
-      tech: "React Nextjs, Tailwind, CSR, fetch",
+      tech: "React Nextjs, Tailwind, CSR",
       link: "https://github.com/mqkhan/reactNewsWebsiteCSR.git",
     },
     {
