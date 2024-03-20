@@ -4,7 +4,9 @@ export default function ContactSection() {
       <h2 className="text-2xl font-bold">Contact</h2>
       <p className="text-lg mt-4">Email: qasim_ajk@yahoo.com</p>
       <p className="text-lg mt-4">
-        Linkedin: https://www.linkedin.com/in/qasim-khan-b71792133/
+        <a href="https://www.linkedin.com/in/qasim-khan-b71792133/">
+          Linkedin:
+        </a>
       </p>
       <p className="text-lg mt-4">Mob No: 0723134080</p>
     </section>
